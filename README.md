@@ -16,13 +16,13 @@ git clone https://github.com/IZomBiee/Video-To-Image.git
 
 4. Navigate to the project directory and set up the Poetry environment:
 ```shell
-cd Pubg-Mortar-Calculator
+cd Video-To-Image
 poetry install
 ```
 
 5. Run the program:
 ```shell
-poetry run python pubg_mortar_calculator/main.py
+poetry run python vide_to_image/main.py
 ```
 # How to use
 ### --width 1920
