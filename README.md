@@ -1,6 +1,5 @@
 # What Does the Program Do?
 This program is a simple tool for extracting images from a video with customizable settings. It saves the images to a folder named after the video, located in the same directory.
----
 # How to Set Up
 1. Install Python 3.13 or higher from [python.org](https://www.python.org/downloads/)
 
@@ -25,7 +24,6 @@ poetry install
 ```shell
 poetry run python pubg_mortar_calculator/main.py
 ```
----
 # How to use
 ### --width 1920
 Sets the width of the output images.
