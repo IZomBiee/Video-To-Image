@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "video-to-image"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple tool to make images from video."
 authors = ["IZomBie <patrik009009@gmail.com>"]
 readme = "README.md"

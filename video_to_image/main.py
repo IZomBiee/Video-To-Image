@@ -1,6 +1,7 @@
 import argparse
 import cv2 as cv
 import os
+import random
 
 def letterbox_resize(image, target_width, target_height):
     h, w = image.shape[:2]
@@ -40,6 +41,8 @@ for _ in range(args.skip_begin):
 frame_count = 0
 save_count = 0
 
+seed = random.randint(1000, 9999)
+
 while video.isOpened():
     ret, frame = video.read()
     if not ret:
@@ -62,7 +65,7 @@ while video.isOpened():
                 new_width = int(args.height * ratio)
                 frame = cv.resize(frame, (new_width, args.height))
         
-        cv.imwrite(f'{save_dir}/{save_count}.jpg', frame)
+        cv.imwrite(f'{save_dir}/{save_count}-{seed}.jpg', frame)
         save_count += 1
     
     frame_count += 1

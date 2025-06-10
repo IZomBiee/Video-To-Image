@@ -36,5 +36,5 @@ Skips 5 frames between each captured image.
 ### --skip_begin 50
 Skips the first 50 frames before starting capture.
 ```python
-poetry run python video_to_image/main.py "C:\Users\user\Videos\2025-06-07 11-38-44.mkv" --skip_every 5 --width 1080 --height --1080 --no_keep_aspect --skip_begin 50
+poetry run python video_to_image/main.py "C:\Users\user\Videos\2025-06-07 11-38-44.mkv" --skip_every 5 --width 1080 --height 1080 --no_keep_aspect --skip_begin 50
 ``` 
